@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14BA4D9F1EF0AAEC00A0E693 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA4D9E1EF0AAEC00A0E693 /* AppDelegate.swift */; };
+		14BA4DA11EF0AAEC00A0E693 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA4DA01EF0AAEC00A0E693 /* ViewController.swift */; };
+		14BA4DA41EF0AAEC00A0E693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BA4DA21EF0AAEC00A0E693 /* Main.storyboard */; };
+		14BA4DA61EF0AAEC00A0E693 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14BA4DA51EF0AAEC00A0E693 /* Assets.xcassets */; };
+		14BA4DA91EF0AAEC00A0E693 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14BA4DA71EF0AAEC00A0E693 /* LaunchScreen.storyboard */; };
+		14BA4DB11EF0AB5E00A0E693 /* DragMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BA4DB01EF0AB5E00A0E693 /* DragMarker.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14BA4D9B1EF0AAEC00A0E693 /* MapDragSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapDragSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14BA4D9E1EF0AAEC00A0E693 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14BA4DA01EF0AAEC00A0E693 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14BA4DA31EF0AAEC00A0E693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14BA4DA51EF0AAEC00A0E693 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14BA4DA81EF0AAEC00A0E693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14BA4DAA1EF0AAEC00A0E693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14BA4DB01EF0AB5E00A0E693 /* DragMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragMarker.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14BA4D981EF0AAEC00A0E693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14BA4D921EF0AAEC00A0E693 = {
+			isa = PBXGroup;
+			children = (
+				14BA4D9D1EF0AAEC00A0E693 /* MapDragSample */,
+				14BA4D9C1EF0AAEC00A0E693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14BA4D9C1EF0AAEC00A0E693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14BA4D9B1EF0AAEC00A0E693 /* MapDragSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14BA4D9D1EF0AAEC00A0E693 /* MapDragSample */ = {
+			isa = PBXGroup;
+			children = (
+				14BA4D9E1EF0AAEC00A0E693 /* AppDelegate.swift */,
+				14BA4DA01EF0AAEC00A0E693 /* ViewController.swift */,
+				14BA4DA21EF0AAEC00A0E693 /* Main.storyboard */,
+				14BA4DB01EF0AB5E00A0E693 /* DragMarker.swift */,
+				14BA4DA51EF0AAEC00A0E693 /* Assets.xcassets */,
+				14BA4DA71EF0AAEC00A0E693 /* LaunchScreen.storyboard */,
+				14BA4DAA1EF0AAEC00A0E693 /* Info.plist */,
+			);
+			path = MapDragSample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14BA4D9A1EF0AAEC00A0E693 /* MapDragSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14BA4DAD1EF0AAEC00A0E693 /* Build configuration list for PBXNativeTarget "MapDragSample" */;
+			buildPhases = (
+				14BA4D971EF0AAEC00A0E693 /* Sources */,
+				14BA4D981EF0AAEC00A0E693 /* Frameworks */,
+				14BA4D991EF0AAEC00A0E693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapDragSample;
+			productName = MapDragSample;
+			productReference = 14BA4D9B1EF0AAEC00A0E693 /* MapDragSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14BA4D931EF0AAEC00A0E693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Jamel Robinson";
+				TargetAttributes = {
+					14BA4D9A1EF0AAEC00A0E693 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = XE2WN73KWE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 14BA4D961EF0AAEC00A0E693 /* Build configuration list for PBXProject "MapDragSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14BA4D921EF0AAEC00A0E693;
+			productRefGroup = 14BA4D9C1EF0AAEC00A0E693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14BA4D9A1EF0AAEC00A0E693 /* MapDragSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14BA4D991EF0AAEC00A0E693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BA4DA91EF0AAEC00A0E693 /* LaunchScreen.storyboard in Resources */,
+				14BA4DA61EF0AAEC00A0E693 /* Assets.xcassets in Resources */,
+				14BA4DA41EF0AAEC00A0E693 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14BA4D971EF0AAEC00A0E693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14BA4DA11EF0AAEC00A0E693 /* ViewController.swift in Sources */,
+				14BA4DB11EF0AB5E00A0E693 /* DragMarker.swift in Sources */,
+				14BA4D9F1EF0AAEC00A0E693 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14BA4DA21EF0AAEC00A0E693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BA4DA31EF0AAEC00A0E693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14BA4DA71EF0AAEC00A0E693 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14BA4DA81EF0AAEC00A0E693 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14BA4DAB1EF0AAEC00A0E693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14BA4DAC1EF0AAEC00A0E693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14BA4DAE1EF0AAEC00A0E693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XE2WN73KWE;
+				INFOPLIST_FILE = MapDragSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joyfulmachines.MapDragSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14BA4DAF1EF0AAEC00A0E693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XE2WN73KWE;
+				INFOPLIST_FILE = MapDragSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = joyfulmachines.MapDragSample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14BA4D961EF0AAEC00A0E693 /* Build configuration list for PBXProject "MapDragSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BA4DAB1EF0AAEC00A0E693 /* Debug */,
+				14BA4DAC1EF0AAEC00A0E693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14BA4DAD1EF0AAEC00A0E693 /* Build configuration list for PBXNativeTarget "MapDragSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14BA4DAE1EF0AAEC00A0E693 /* Debug */,
+				14BA4DAF1EF0AAEC00A0E693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14BA4D931EF0AAEC00A0E693 /* Project object */;
+}
